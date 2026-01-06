@@ -6,6 +6,6 @@ export const Config = reactive({
     autoFire: true,
     showCity: true,
     showStars: true,
-    titleText: '2025 新年快乐',
-    subtitleText: '点击屏幕燃放烟花 • 在设置中调整选项'
+    titleText: '2026 新年快乐',
+    subtitleText: '如果不回头，2026就是一马平川。 新的一年，此时已在路上。'
 });

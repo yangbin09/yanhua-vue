@@ -85,6 +85,11 @@ export class Engine {
         if (type === 'star') count = 80;
         if (type === 'crackle') count = 150;
         
+        // Optimize for mobile
+        if (window.innerWidth < 768) {
+            count = Math.floor(count * 0.6); // Reduce particles by 40% on mobile
+        }
+
         // Secondary color for interest
         const secondaryColor = (color + Math.random() * 60 + 30) % 360;
 

@@ -84,7 +84,8 @@ export class Particle {
         ctx.lineWidth = (this.type === 'heavy') ? 2.5 : 1.5;
         
         // Add a glow effect for bright particles
-        if (this.brightness > 60) {
+        // Optimize: Disable shadowBlur on mobile (screen width < 768)
+        if (this.brightness > 60 && window.innerWidth > 768) {
              ctx.shadowBlur = 4;
              ctx.shadowColor = `hsla(${this.color}, 100%, 50%, ${a})`;
         } else {

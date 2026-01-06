@@ -1,6 +1,6 @@
 <template>
-  <div class="app-container" @click="handleLaunch" @touchstart.prevent="handleLaunch">
-    <canvas ref="canvasRef"></canvas>
+  <div class="app-container">
+    <canvas ref="canvasRef" @click="handleLaunch" @touchstart.prevent="handleLaunch"></canvas>
     <HeroOverlay />
     <SettingsPanel />
   </div>
