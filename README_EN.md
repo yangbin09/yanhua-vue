@@ -6,7 +6,9 @@ A beautiful, interactive fireworks simulation built with **Vue 3**, **TypeScript
 
 ## 📺 Demo Video
 
-<video src="assets/demo.mp4" controls="controls" style="max-width: 100%;"></video>
+[Click to watch demo video (assets/demo.mp4)](assets/demo.mp4)
+
+> Note: GitHub may not play repository video files directly inline. Please click the link above to watch.
 
 ## ✨ Features
 
