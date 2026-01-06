@@ -4,6 +4,10 @@
 
 基于 **Vue 3**、**TypeScript** 和 **HTML5 Canvas** 构建的精美交互式烟花模拟项目。在浏览器中体验真实的物理引擎、绚丽的视觉特效和沉浸式的音效。
 
+## 📺 演示视频
+
+<video src="assets/demo.mp4" controls="controls" style="max-width: 100%;"></video>
+
 ## ✨ 功能特性
 
 - **交互式体验**：点击或触摸屏幕任意位置即可发射烟花。

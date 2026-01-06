@@ -4,6 +4,10 @@ English | [简体中文](./README.md)
 
 A beautiful, interactive fireworks simulation built with **Vue 3**, **TypeScript**, and **HTML5 Canvas**. Experience realistic physics, stunning visual effects, and immersive soundscapes directly in your browser.
 
+## 📺 Demo Video
+
+<video src="assets/demo.mp4" controls="controls" style="max-width: 100%;"></video>
+
 ## ✨ Features
 
 - **Interactive Gameplay**: Click or touch anywhere on the screen to launch fireworks.
