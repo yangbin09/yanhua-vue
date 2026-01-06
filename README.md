@@ -6,9 +6,9 @@
 
 ## 📺 演示视频
 
-[点击观看演示视频 (assets/demo.mp4)](assets/demo.mp4)
+[🎥 点击在线观看演示视频](https://github.com/yangbin09/yanhua-vue/blob/main/assets/demo.mp4)
 
-> 注意：GitHub 可能无法直接在页面内播放仓库中的视频文件，请点击上方链接查看。
+> 提示：如果无法直接播放，请点击上方链接跳转至 GitHub 播放页面。
 
 ## ✨ 功能特性
 
