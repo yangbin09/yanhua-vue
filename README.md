@@ -1,88 +1,90 @@
-# 🎆 Fireworks Simulation (Vue 3 + Canvas)
+# 🎆 烟花模拟器 (Vue 3 + Canvas)
 
-A beautiful, interactive fireworks simulation built with **Vue 3**, **TypeScript**, and **HTML5 Canvas**. Experience realistic physics, stunning visual effects, and immersive soundscapes directly in your browser.
+[English](./README_EN.md) | 简体中文
 
-## ✨ Features
+基于 **Vue 3**、**TypeScript** 和 **HTML5 Canvas** 构建的精美交互式烟花模拟项目。在浏览器中体验真实的物理引擎、绚丽的视觉特效和沉浸式的音效。
 
-- **Interactive Gameplay**: Click or touch anywhere on the screen to launch fireworks.
-- **Diverse Firework Types**: Includes 10+ distinct styles such as Peony, Chrysanthemum, Willow, Strobe, Ring, Heart, Crossette, and more.
-- **Realistic Physics**: Custom physics engine for gravity, drag, and particle dispersion.
-- **Immersive Audio**: Dynamic sound engine with launch and explosion effects synchronized with visuals.
-- **Atmospheric Visuals**: Dynamic backgrounds featuring skylines, star fields, and cloud layers.
-- **Responsive Design**: Optimized for both desktop and mobile devices.
-- **Customizable Settings**: Adjust volume and other parameters via the settings panel.
+## ✨ 功能特性
 
-## 🛠️ Tech Stack
+- **交互式体验**：点击或触摸屏幕任意位置即可发射烟花。
+- **丰富的烟花类型**：包含 10+ 种独特风格，如牡丹、菊花、柳树、频闪、环形、心形、十字等。
+- **真实物理引擎**：自定义物理引擎，模拟重力、空气阻力和粒子扩散效果。
+- **沉浸式音效**：动态声音引擎，发射和爆炸音效与视觉完美同步。
+- **氛围感视觉**：动态背景，包含城市天际线、星空和云层。
+- **响应式设计**：完美适配桌面端和移动端设备。
+- **自定义设置**：通过设置面板调整音量和其他参数。
 
-- **Framework**: [Vue 3](https://vuejs.org/) (Composition API)
-- **Language**: [TypeScript](https://www.typescriptlang.org/)
-- **Build Tool**: [Vite](https://vitejs.dev/)
-- **Rendering**: HTML5 Canvas 2D API
-- **Styling**: CSS3
+## 🛠️ 技术栈
 
-## 🚀 Getting Started
+- **框架**: [Vue 3](https://vuejs.org/) (Composition API)
+- **语言**: [TypeScript](https://www.typescriptlang.org/)
+- **构建工具**: [Vite](https://vitejs.dev/)
+- **渲染**: HTML5 Canvas 2D API
+- **样式**: CSS3
 
-Follow these steps to set up the project locally.
+## 🚀 快速开始
 
-### Prerequisites
+按照以下步骤在本地运行项目。
 
-- Node.js (v14.0.0 or higher)
-- npm or yarn
+### 前置要求
 
-### Installation
+- Node.js (v14.0.0 或更高版本)
+- npm 或 yarn
 
-1. Clone the repository:
+### 安装
+
+1. 克隆仓库：
    ```bash
    git clone https://github.com/yangbin09/yanhua-vue.git
    cd yanhua-vue
    ```
 
-2. Install dependencies:
+2. 安装依赖：
    ```bash
    npm install
    ```
 
-### Development
+### 开发
 
-Start the development server:
+启动开发服务器：
 
 ```bash
 npm run dev
 ```
 
-Open your browser and navigate to `http://localhost:5173` (or the URL shown in your terminal).
+打开浏览器访问 `http://localhost:5173`（或终端中显示的 URL）。
 
-### Production Build
+### 生产环境构建
 
-Build the project for production:
+构建生产环境版本：
 
 ```bash
 npm run build
 ```
 
-The output files will be in the `dist` directory.
+构建产物将输出到 `dist` 目录。
 
-### Preview Production Build
+### 预览生产构建
 
 ```bash
 npm run preview
 ```
 
-## 📂 Project Structure
+## 📂 项目结构
 
 ```
 src/
-├── components/      # Vue components (Overlay, Settings, etc.)
-├── composables/     # Shared state and logic
-├── game/           # Core game logic
-│   ├── Engine.js       # Main game loop and coordinator
-│   ├── Physics.js      # Particle and Firework physics
-│   ├── SoundEngine.js  # Audio management
-│   └── Visuals.js      # Background elements (Stars, Skyline)
-├── App.vue         # Main application entry
-└── main.ts         # App initialization
+├── components/      # Vue 组件 (遮罩层, 设置面板等)
+├── composables/     # 组合式函数 (状态逻辑)
+├── game/           # 游戏核心逻辑
+│   ├── Engine.js       # 主循环和协调器
+│   ├── Physics.js      # 粒子和烟花物理
+│   ├── SoundEngine.js  # 音频管理
+│   └── Visuals.js      # 背景元素 (星空, 天际线)
+├── App.vue         # 应用入口组件
+└── main.ts         # 应用初始化
 ```
 
-## 📄 License
+## 📄 许可证
 
 [MIT](LICENSE)
